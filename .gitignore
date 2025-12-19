@@ -23,7 +23,10 @@
 hs_err_pid*
 replay_pid*
 
-# Mac generated
+# Mac generated files
 *.DS_Store
 *.tmp.*
 *~
+
+# idea generated files
+*.idea*
