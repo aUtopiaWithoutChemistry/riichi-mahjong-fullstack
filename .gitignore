@@ -26,3 +26,4 @@ replay_pid*
 # Mac generated
 *.DS_Store
 *.tmp.*
+*~
