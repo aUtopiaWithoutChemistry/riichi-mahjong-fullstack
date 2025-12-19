@@ -1,4 +1,6 @@
-package transport.ws.dto;
+package io.github.autopiawithoutchemistry.backend.transport.ws.dto;
+
+import java.util.List;
 
 /**
  * This model represents a game's status on client side.
@@ -38,7 +40,7 @@ public class GameStateView {
   /**
    * Show user's hand.
    */
-  private String userHand;
+  private List<String> userHand;
 
   /**
    * Show all players' discards.
@@ -54,4 +56,9 @@ public class GameStateView {
    * All available actions for user.
    */
   private String availableActions;
+
+  /**
+   * Number of Tiles remaining in wall.
+   */
+  private int wallRemaining;
 }
